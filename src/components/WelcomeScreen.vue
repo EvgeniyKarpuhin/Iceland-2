@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted } from 'vue';
 
-const layer = ref<null | HTMLElements>(null)
+const layer = ref<null | HTMLElement>(null)
 
 const movePlane = () => {
     const scrollY = window.scrollY
