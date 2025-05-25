@@ -6,11 +6,11 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/iceland-2/',
   plugins: [
     vue(),
     vueDevTools(),
   ],
-  base: '/iceland-2/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
